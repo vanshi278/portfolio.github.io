@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding : 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background : #080808;
+    color: white;
+    overflow-x: hidden;
+    clip-path: polygon(0 0 ,100% 0 , 100% 100% , 30% 87% , 0 100%);
+}
+
+    
+.picture{
+    position: relative;
+    left: 1020px;
+    size: 20% ;
+    height: 20%;
+    width: 30%;
+}   
+
+.container{
+      
+    width : 100%;
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    position: relative;
+    left : 10px;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.name{
+    width : 140px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+}
+
+
+
+.firstletter{
+    color:  rgb(3, 196, 250);
+    font-size: 70px;
+}
+ul li{
+    display: illine inline-block;
+    list-style: none ;
+    margin: : 10px 20px;
+
+}
+.list{
+    color: rgb(232, 230, 159);
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: normal;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 600px;
+    position: relative;
+    right: 0px;
+}
+.list a{
+    
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(0, 196, 250) ;
+    transition: all .3s ease;
+    text-transform: uppercase;
+    
+}
+.list a:hover{
+    color:rgb(0, 196, 250);
+}
+.text1{
+    position: relative;
+    top: -400px;
+    left : 130px;
+    font-size: 33px;
+    padding-bottom: 30px;
+    
+    
+}
+.text2{
+    position: relative;
+    top: -400px;
+    left : 130px;
+    font-size: 50px;
+    line-height: 1.3;
+}
+.highlight{
+    color:rgb(0, 196, 250)
+}
+
+.a1{
+    shape-outside: margin-box;
+    width : 400px ;
+    height: 500px ;
+    margin: 80px;
+    
+    border : 4px solid rgb(231, 220, 220);
+    padding: 20px;
+    border-radius: 2%;
+    
+    
+}
+.page1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+section{
+    padding: 6rem 0;
+     background-color: #f3efef
+    ;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5%;
+    
+    
+}
+.icons img:hover{
+    color: #428bca;
+}
+.icons{
+    margin-top: 6%;
+   
+}
+.heading{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    line-height: 40px;
+    margin-bottom: 60px;
+    border-color: aliceblue;
+    
+    
+
+}
+.image{
+    border: 1px solid rgb(53, 52, 52) ;
+    overflow : hidden;
+    flex : 1;
+    padding-right: -40px;
+    
+
+}
+.para {
+    width: 700px;
+    position: relative;
+    line-height: 170%;
+    font-size: 140%;
+    color: rgb(63, 62, 62);
+    
+
+    
+}
+.content1{
+    flex:1.5;
+    text-align: left;
+    
+}
+.h1{
+color: rgb(28, 28, 29);
+margin-top: 50px;
+font-size:60px;
+padding-bottom:20px;
+
+
+}
+.h11{
+     color: #428bca;
+}
+.schools{
+    line-height: 40px;
+    /* text-align: center; */
+    color: antiquewhite;
+    font-size: 20px;
+}
+.year{
+    margin-left: 30px;
+    padding top : 10px;
+    font-size: small;
+    color: rgb(227, 71, 146);
+}
+.list1{
+    border:2px solid rgb(49, 45, 45);
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    /* padding: 20px;; */
+    background-color: rgb(47, 44, 44);
+    /* text-align: center; */
+    /* margin-left: 500px; */
+}
+
+.page2{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.skills {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgb(217, 210, 201);
+  }
+  
+  .skills h2 {
+    margin-bottom: 20px;
+    padding-bottom: 5%;
+    font-size: 3em;
+    color: #0b0b0b;
+    line-height: 0.5;
+  }
+  
+  .skills-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap:5rem;
+    align-items: center;
+    padding-left: 100px;
+  }
+  .skill-box:hover{
+    background-color: #080808;
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+  }
+  .skill-box:hover p{
+    color: #fffcfc;
+  }
+  .skill-box:hover h3{
+    color: #fffcfc;
+  }
+  
+  .skill-box {
+    width: 300px;
+    margin: 10px;
+    background-color: #fffdfd;
+    padding: 3rem 2rem;
+    padding-top: 6rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    position:relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .skill-box img {
+    width: 15%;
+    height: 10%;
+    margin-bottom: 10px;
+    color: #428bca;
+    position :absolute;
+    top: -1.0rem;
+  }
+  .img-colour{
+    background-color: #428bca;
+  }
+  
+  .skill-box h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color:black;
+    font-style: italic;
+  }
+  
+  .skill-box p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: black;
+  }
+
+
+  section.freelancer{
+    background:linear-gradient(rgba(0,0,0,0.7) ,rgba(0,0,0,0.7)) , url(images/1dfe0f0f330ef4b5f234045d4d39b2c9.jpg);
+    clip-path: polygon(0 0 ,100% 0 , 100% 100% , 67% 80% , 0 100%);
+    text-align: center;
+    color: #d4ecf1;
+    padding-bottom: 15rem;
+  }
+
+  .freelancer h1{
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    margin-top: 1rem;
+  }
+  .btn{
+     background-color: #00e1ff;
+     color: #000000;
+     padding: 15px 20px;
+     font-size: larger;
+  }
+  
+  /* Font Awesome Icon library reference (replace with your preferred method) */
+  /* Option 1: Using CDN link in your HTML */
+  /* <link rel="stylesheet" href="https://kit.fontawesome.com/your-fontawesome-kit-code.js"> */
+  
+  /* Option 2: Including the Font Awesome CSS file locally */
+  /* @import url("path/to/font-awesome.min.css"); */
+  
+  .contact {
+    text-align: center;
+   
+    
+    justify-content: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+    font-size: 3em;
+  }
+  
+  .contact-container {
+    
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    
+  }
+  
+  .contact-form,
+  .contact-info {
+    
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    
+  }
+  
+  .contact-form p {
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  .contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-form button:hover {
+    background-color: #3e8e41;
+  }
+
+  
+  
+  .contact-info h3 {
+    margin-bottom: 15px;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+    height: 50px;
+    align-items:center;
+    padding: 10px;    
+    
+  }
+  
+  .contact-info li i {
+    margin-right: 10px
+    
+  }
+ 
+
+  
