@@ -122,7 +122,7 @@
                   </div>
                   <div class="skill-box">
                     <div class img-colour> <img src="images/telephone.png" alt="icon "></div>
-                     <h3>Problem Solving</h3>
+                    <h3>Problem Solving</h3>
                     <p>Able to break down complex challenges and find creative solutions.</p>
                   </div>
                   <div class="skill-box">
@@ -140,7 +140,7 @@
               
 
               <section class="freelancer">
-                <h1> I am available for <span>Freelancer</span></h1>
+                <h1> I am available for <span>Freelancing</span></h1>
                 <button class="btn">Download CV</button>
               </section>
 
@@ -176,18 +176,28 @@
                     </div>
                     <div class="content-2">
                       <li> Address: A-107 SNVH , KGP</li> 
-                       <li> LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile/">your-linkedin-profile</a></li>
+                      <li> LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile/">your-linkedin-profile</a></li>
                     </div>
                     </ul>
                   </div>
                 </div>
               </section>
-              
-              
-              
-              
-        
+              <script>
+                document.querySelector('button[type="submit"]').addEventListener('click', function(event) {
 
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const message = document.getElementById('message').value;
+
+                    console.log('Name:', name);
+                    console.log('Email:', email);
+                    console.log('Message:', message);
+
+                    document.getElementById('name').value = '';
+                    document.getElementById('email').value = '';
+                    document.getElementById('message').value = '';
+                });
+            </script>
     </body>
 
 </html>
