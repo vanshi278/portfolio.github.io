@@ -11,7 +11,6 @@ header{
     clip-path: polygon(0 0 ,100% 0 , 100% 100% , 30% 87% , 0 100%);
 }
 
-    
 .picture{
     position: relative;
     left: 1020px;
@@ -49,7 +48,7 @@ header{
 ul li{
     display: illine inline-block;
     list-style: none ;
-    margin: : 10px 20px;
+    margin: 10px 20px;
 
 }
 .list{
@@ -119,7 +118,7 @@ ul li{
 }
 section{
     padding: 6rem 0;
-     background-color: #f3efef
+    background-color: #f3efef
     ;
 }
 .icons img{
@@ -134,7 +133,6 @@ section{
 }
 .icons{
     margin-top: 6%;
-   
 }
 .heading{
     font-size: 60px;
@@ -179,7 +177,7 @@ padding-bottom:20px;
 
 }
 .h11{
-     color: #428bca;
+    color: #428bca;
 }
 .schools{
     line-height: 40px;
@@ -189,7 +187,7 @@ padding-bottom:20px;
 }
 .year{
     margin-left: 30px;
-    padding top : 10px;
+    padding-top : 10px;
     font-size: small;
     color: rgb(227, 71, 146);
 }
@@ -317,7 +315,6 @@ padding-bottom:20px;
   
   .contact {
     text-align: center;
-   
     
     justify-content: center;
   }
@@ -404,6 +401,3 @@ padding-bottom:20px;
     margin-right: 10px
     
   }
- 
-
-  
